@@ -22,6 +22,7 @@ public class Filter {
             }
         }
         logger.log("Прошло фильтр " + result.size() + " элемента из " + source.size());
+        logger.log("Выводим рузльтат на экран");
         System.out.print("Отфильтрованный список ");
         result.forEach(item -> System.out.print(item + " "));
         System.out.println();
